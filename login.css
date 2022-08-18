@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(29,177,253,1) 50%, rgba(69,132,252,1) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 350px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+    }
+    
+#card {
+        background: #fbfbfb;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        height: 500px;
+        margin: 6rem auto 8.1rem auto;
+        width: 329px;
+}
+#card-content {
+      padding: 12px 44px;
+}
+#card-title {
+      font-family: "Raleway Thin", sans-serif;
+      letter-spacing: 4px;
+      padding-bottom: 23px;
+      padding-top: 13px;
+      text-align: center;
+}
+a:hover, a:active {
+    background-color: #98ceec;
+    }
+
+a:link, a:visited {
+    background-color: #98ceec;
+    color: black;
+    padding: 15px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.kotak_login{
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: auto;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+.fb {
+    background-color: #3B5998;
+    color: white;
+  }
+  
+  .google {
+    background-color: #dd4b39;
+    color: white;
+  }

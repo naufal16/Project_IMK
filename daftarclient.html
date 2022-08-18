@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      button{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        background: #0083FF;
+        border-radius: 15px;
+        border: none;
+        padding: 8px 30px;
+        margin-left: 20px;
+        display: inline-block;
+        transition: 200ms;
+      }
+    </style>
+</head>
+<body>
+     <!-- Awal form daftar pencari kost-->
+  <article id="get-formdaftar" class="formdaftar-section">
+    <section id="formdaft">
+      <div class="wrapper">
+        <h2>Daftar Akun Pencari Kost</h2>
+        <div class="formdaf-content">
+          <div class="formdaf-description">
+              <form>
+              <label for="message"> Nama Lengkap </label> <br>
+              <input id="nama-langkap" type="text" name="nama-langkap" style="font-size: 16pt;" placeholder="" required><br>
+              <label for="message"> Nomor Handphone </label> <br>
+              <input id="nomor-handphone" type="number" name="nomor-handphone" style="font-size: 16pt" placeholder="" required><br>
+              <label for="message"> Email </label><br>
+              <input id="nam-email" type="text" name="nam-email" style="font-size: 16pt" placeholder="" required><br>
+              <label for="message"> Password </label><br>
+              <input id="no-password" type="password" name="no-password" style="font-size: 16pt" placeholder="" required><br>
+              <label for="message"> Ulangi Password </label><br>
+              <input id="ulangi-password" type="password" name="ulangi-password" style="font-size: 16pt" placeholder="" required><br>
+              </form>
+              <button type="button" onclick="daftar()">Daftar</button>
+          </div>         
+          <table>
+            <div class="formdaft-image">
+            <img src="gambar/daftar.svg" alt="">
+        </div>
+          </table> 
+        </div>
+      </div>
+    </section>
+  </article>
+  <!-- Akhir form daftar pencari kost-->
+</body>
+<script>
+  function daftar() {
+      alert('Selamat anda telah terdaftar :)')
+  }
+  </script>
+</html>

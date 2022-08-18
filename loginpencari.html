@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Halaman Login</title>
+        <!--<link rel="stylesheet" href="login.css">!-->
+        <style>
+          body{
+                height: 100vh;
+                background: rgb(255,255,255);
+                background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(29,177,253,1) 50%, rgba(69,132,252,1) 100%);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+          }
+          #card {
+                background: #fbfbfb;
+                border-radius: 8px;
+                box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+                height: 500px;
+                margin: 6rem auto 8.1rem auto;
+                width: 329px;
+        }
+          #card-content {
+                padding: 12px 44px;
+          }
+          #card-title {
+                font-family: "Raleway Thin", sans-serif;
+                letter-spacing: 4px;
+                padding-bottom: 23px;
+                padding-top: 13px;
+                text-align: center;
+          }
+          .kotak_login{
+            /*meletakkan form ke tengah*/
+            margin: auto;
+            padding: auto;
+          }
+          
+          label{
+            font-size: 11pt;
+          }
+          
+          .form_login{
+            /*membuat lebar form penuh*/
+            box-sizing : border-box;
+            background-color: rgb(177, 184, 185);
+            width: 100%;
+            padding: 5px;
+            font-size: 11pt;
+            margin-bottom: auto;
+            border: none;
+            border-radius: 60px;
+          }
+          
+          .tombol_login{
+            background: #0083FF;
+            color: white;
+            font-size: 11pt;
+            width: 50%;
+            border: none;
+            border-radius: 60px;
+            padding: 3px 3px;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="card"> 
+            <div id="card-content">
+                <div id="card-title">
+                  <h2>Login Pencari Kos</h2>
+                </div>
+                <center>
+                  <div>
+                    
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3">
+                      <a class="btn btn-outline-dark" href="/users/googleauth" role="button" style="text-transform:none;padding-right: 60px;">
+                        <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+                        Login with Google
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3">
+                      <a class="btn btn-outline-dark" href="/users/googleauth" role="button" style="text-transform:none;padding-right: 45px;">
+                        <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Facebook sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/600px-Facebook_f_logo_%282019%29.svg.png" />
+                        Login with Facebook
+                      </a>
+                    </div>
+                  </div>
+                  
+                  <!-- Minified CSS and JS -->
+                  <link   rel="stylesheet" 
+                          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+                          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+                          crossorigin="anonymous">
+                  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+                          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+                          crossorigin="anonymous">
+                  </script>
+                </center>
+                <center>
+                  <p style="font-size: smaller;">atau</p>
+                </center>
+                
+                <div class="kotak_login">
+                    <form>
+                        <label>Nomor Handphone</label>
+                        <input type="text" name="username" class="form_login" style="font-size: smaller;" placeholder="   Username atau email ..">
+             
+                        <label>Password</label>
+                        <input type="password" id = "pwd" name="password" class="form_login" style="font-size: smaller;" placeholder="    Password ..">
+                        <br>
+                        <br>
+                        <center>
+                          <input type="submit" class="tombol_login" value="LOGIN">
+                        </center>
+                        
+                        <center>
+                            <p style="font-size: smaller;">
+                              Belum punya akun?
+                              <a class="link" href="daftarclient.html">Daftar sekarang</a>
+                            </p>
+                        </center>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>     
+    </body>
+</html>
